@@ -1,0 +1,133 @@
+
+
+/** Text **/
+body,h1,h2,h3,h4,h5,h6,a {
+	font-family: 'Roboto', sans-serif;
+	color: white !important;
+}
+
+/** Default Background **/
+body{
+	background-color: #800000;
+}
+
+/** Classes **/
+.logo-header{
+	margin-right:20px;
+}
+
+/* navbar */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-expand-md {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+}
+
+/* Displays */
+.center-display {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* Jumbotron */
+.jumbotron{
+	background: none;
+	padding:0;
+	margin: 0;
+	border-radius:0;
+	color: white;
+}
+
+.content-red.jumbotron{
+	background-color: #800000;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.content-black.jumbotron{
+	background-color: #0E0E0E;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.content-third{
+	margin-bottom: 30px;
+}
+
+.content-quarter{
+	margin-bottom: 30px;
+}
+
+.content-header{
+	text-align: center;
+	padding-bottom:10px;
+}
+
+.content-img{
+	margin-top: 30px;
+	height: 150px;
+	width: 150px;
+}
+
+.content-sub{
+	padding: 0;
+	margin: auto;
+	width:50%;
+	vertical-align: center;
+	text-align: center;
+	padding-top: 5vh;
+}
+
+.content-sub-info{
+	margin:auto;
+	padding:0;
+	text-align:center;
+}
+
+.fullheight.jumbotron {
+	position: relative;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.30), 
+      rgba(0, 0, 0, 0.30)
+    ), url('../img/pexels-photo-417054.jpg') no-repeat center center;
+	background-size: cover;
+	min-height:100vh;
+}
+
+.footer-copyright-black{
+	padding-top: 40px;]
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	background-color: #0E0E0E;
+}
+
+.footer-display-black{
+	padding:0;
+	margin:0;
+	background-color: #0E0E0E;
+}
+
+.footer-copyright-red{
+	padding-top: 40px;
+	margin-bottom: 40px;
+	background-color: #800000;
+}
+
+.footer-display-red{
+	padding:0;
+	margin:0;
+	background-color: #800000;
+}
+
+/* Buttons */
+.btn-primary-outline{
+	background-color: transparent;
+	border-color: #ccc;
+	color: white;
+}
